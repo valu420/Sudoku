@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="790.0" style="-fx-background-color: whithe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="790.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sudoku.controller.GameController">
     <children>
         <GridPane gridLinesVisible="true" layoutX="48.0" layoutY="102.0" opacity="0.62" prefHeight="394.0" prefWidth="419.0" style="-fx-border-color: blue;">
             <columnConstraints>
@@ -40,7 +39,7 @@
         <Button layoutX="561.0" layoutY="406.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: D1EDEA;" text="Dificil" />
         <ImageView fitHeight="145.0" fitWidth="140.0" layoutX="562.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../Pictures/pochacco.jpg" />
+                <Image url="@images/pochacco.png" />
             </image>
         </ImageView>
         <Label layoutX="292.0" layoutY="24.0" style="-fx-border-radius: 10;" text="S U D O K U" textFill="#729792">

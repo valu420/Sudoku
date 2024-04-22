@@ -1,18 +1,16 @@
+package com.example.sudoku;
+
+import com.example.sudoku.view.GameStage;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Game.fxml"));
-        Scene scene = new Scene(root);
-        primaryStage.setTitle("Sudoku");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+    public void start(Stage primaryStage) throws IOException {
+        GameStage.getInstance();
     }
 
     public static void main(String[] args) {
