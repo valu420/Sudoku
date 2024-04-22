@@ -37,87 +37,411 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
          <children>
-            <TextField prefHeight="51.0" prefWidth="43.0" />
-            <TextField GridPane.columnIndex="1" />
-            <TextField GridPane.columnIndex="2" />
-            <TextField GridPane.columnIndex="3" />
-            <TextField GridPane.columnIndex="4" />
-            <TextField GridPane.columnIndex="5" />
-            <TextField GridPane.columnIndex="6" />
-            <TextField GridPane.columnIndex="7" />
-            <TextField GridPane.columnIndex="8" />
-            <TextField GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="1" />
-            <TextField GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="2" />
-            <TextField GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="3" />
-            <TextField GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="4" />
-            <TextField GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="5" />
-            <TextField GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="6" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="6" />
-            <TextField GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="7" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="7" />
-            <TextField GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="2" GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="3" GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="4" GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="5" GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="6" GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="7" GridPane.rowIndex="8" />
-            <TextField GridPane.columnIndex="8" GridPane.rowIndex="8" />
+            <TextField prefHeight="51.0" prefWidth="43.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
          </children>
         </GridPane>
         <Button layoutX="561.0" layoutY="406.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: D1EDEA;" text="Dificil" />
