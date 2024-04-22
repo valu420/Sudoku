@@ -30,17 +30,17 @@
         </Label>
         <Button layoutX="561.0" layoutY="310.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: D1EDEA;" text="Facil" />
         <Button layoutX="561.0" layoutY="357.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" style="-fx-background-color: D1EDEA;" text="Medio" />
-      <GridPane fx:id="sudokuBoard" gridLinesVisible="true" layoutX="47.0" layoutY="156.0" prefHeight="295.0" prefWidth="452.0">
+      <GridPane fx:id="sudokuBoard" gridLinesVisible="true" layoutX="51.0" layoutY="121.0" prefHeight="342.0" prefWidth="418.0">
         <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="44.0" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="49.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="217.0" minWidth="10.0" prefWidth="52.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="48.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="337.0" minWidth="10.0" prefWidth="51.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="395.0" minWidth="10.0" prefWidth="55.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="454.0" minWidth="1.0" prefWidth="56.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="514.0" minWidth="10.0" prefWidth="63.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="10.0" prefWidth="62.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="49.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="217.0" minWidth="10.0" prefWidth="49.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="292.0" minWidth="10.0" prefWidth="46.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="337.0" minWidth="10.0" prefWidth="44.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="395.0" minWidth="10.0" prefWidth="46.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="454.0" minWidth="1.0" prefWidth="45.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="514.0" minWidth="10.0" prefWidth="48.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="572.0" minWidth="10.0" prefWidth="45.0" />
         </columnConstraints>
         <rowConstraints>
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
