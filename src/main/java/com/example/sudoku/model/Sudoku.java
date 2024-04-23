@@ -1,4 +1,4 @@
-package org.example.sudoku.model;
+package com.example.sudoku.model;
 
 public class Sudoku implements ISudoku {
     private int [][] tableSudoku;
@@ -41,7 +41,7 @@ public class Sudoku implements ISudoku {
     }
 
     @Override
-    public void setNumberInTableSodoku(int number, int row, int col) {
+    public void setNumberInTableSudoku(int number, int row, int col) {
         this.tableSudoku[number] [row] = number;
     }
 
