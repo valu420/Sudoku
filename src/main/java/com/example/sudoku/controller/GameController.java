@@ -18,11 +18,8 @@ public class GameController {
 
     @FXML
     public void initialize(){
-        String baby_blue, blue;
-        baby_blue = "#bcceff";
-        blue = "#def7ff";
-        Color color = Color.web(baby_blue);
-        Color colorcito = Color.web(blue);
+        Color cellColor = Color.web("#bcceff");
+        Color defaultcellColor = Color.web("#def7ff");
         for (int i = 0; i < 9; i++){
             for (int j = 0; j < 9; j++){
                 TextField numTxt = new TextField();
@@ -30,16 +27,17 @@ public class GameController {
                 numTxt.setPrefWidth(56);
                 numTxt.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.DOTTED, CornerRadii.EMPTY, new BorderWidths(1))));
                 numTxt.setAlignment(Pos.CENTER);
-                numTxt.setText(String.valueOf(sudoku.getSudokuBoard()[i][j]));
+                //numTxt.setText(String.valueOf(sudoku.getSudokuBoard()[i][j]));
                 if (sudoku.getSudokuBoard()[i][j] > 0){
+                    numTxt.setText(String.valueOf(sudoku.getSudokuBoard()[i][j]));
                     numTxt.setEditable(false);
-                    numTxt.setBackground(new Background(new BackgroundFill(color, null, null)));
+                    numTxt.setBackground(new Background(new BackgroundFill(cellColor, null, null)));
                 }
                 else{
                     numTxt.setText("");
-                    numTxt.setBackground(new Background(new BackgroundFill(colorcito, null, null)));
+                    numTxt.setBackground(new Background(new BackgroundFill(defaultcellColor, null, null)));
                 }
-                sudokuBoard.add(numTxt, i, j);
+                sudokuBoard.add(numTxt,j,i);
                 onKeyReleased(numTxt, i, j);
             }
         }
@@ -56,6 +54,7 @@ public class GameController {
             }
             else{
                 sudoku.setNumberInTableSudoku(Integer.parseInt(num) ,i, j);
+                isRepeatedNum(sudoku, numTxt, i, j);
                 gameStatus(sudoku.getSudokuBoard());
             }
         });
@@ -79,6 +78,16 @@ public class GameController {
         if (sudokuBoardFull){
             GameStatusAlert gameStatusAlert = new GameStatusAlert();
             gameStatusAlert.showMessage("VICTORIA", "Felicidades, has ganado");
+
+        }
+    }
+
+    private void isRepeatedNum(Sudoku sudoku, TextField numTxt, int i, int j) {
+        if ((sudoku.isNumberVertical(sudoku.getSudokuBoard()[i][j], j)) ||
+                (sudoku.isNumberHorizontal(sudoku.getSudokuBoard()[i][j], i))) {
+            AlertBox alertBox = new AlertBox();
+            alertBox.showMessage("ERROR", "El digito que ingresaste se repite en su columna y/o fila. Ingresa de nuevo un digito");
+            numTxt.setText("");
         }
     }
 }

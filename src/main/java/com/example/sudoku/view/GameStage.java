@@ -13,6 +13,7 @@ public class GameStage extends Stage {
         Parent root = loader.load();
         Scene scene = new Scene(root);
         setTitle("Sudoku game");
+        setResizable(false);
         setScene(scene);
         show();
     }
