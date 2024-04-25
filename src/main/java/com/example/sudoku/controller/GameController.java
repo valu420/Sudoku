@@ -87,12 +87,12 @@ public class GameController {
                 sudoku.setNumberInTableSudoku(Integer.parseInt(num) ,i, j);
                 // Check if the entered number is repeated in its row or column
                 isRepeatedNum(sudoku, numTxt, i, j);
-<<<<<<< HEAD
+
                 // Check the game status
                 gameStatus(sudoku.getSudokuBoard());
-=======
 
->>>>>>> cdd36013d9e3d65c0b47c206b65d7b6cf0fd1f22
+
+
             }
         });
     }

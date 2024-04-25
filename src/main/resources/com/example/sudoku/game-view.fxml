@@ -11,7 +11,7 @@
     <children>
         <ImageView fitHeight="347.0" fitWidth="203.0" layoutX="526.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../../../../../Pictures/kuromi.jpg" />
+                <Image url="@images/kuromi.jpg" />
             </image>
         </ImageView>
       <GridPane fx:id="sudokuBoard" gridLinesVisible="true" layoutX="50.0" layoutY="165.0" prefHeight="347.0" prefWidth="414.0">
@@ -40,7 +40,7 @@
       </GridPane>
       <ImageView fitHeight="159.0" fitWidth="288.0" layoutX="234.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Pictures/LOGO.png" />
+            <Image url="@images/logo.png" />
          </image>
       </ImageView>
     </children>
