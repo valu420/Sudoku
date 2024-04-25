@@ -87,8 +87,12 @@ public class GameController {
                 sudoku.setNumberInTableSudoku(Integer.parseInt(num) ,i, j);
                 // Check if the entered number is repeated in its row or column
                 isRepeatedNum(sudoku, numTxt, i, j);
+<<<<<<< HEAD
                 // Check the game status
                 gameStatus(sudoku.getSudokuBoard());
+=======
+
+>>>>>>> cdd36013d9e3d65c0b47c206b65d7b6cf0fd1f22
             }
         });
     }
@@ -113,15 +117,16 @@ public class GameController {
     // Method to check the game status (if the Sudoku board is full)
     public void gameStatus(int[][] sudokuBoard){
         boolean sudokuBoardFull = true;
-        outerloop:
+
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (sudokuBoard[i][j] == 0){
                     sudokuBoardFull = false;
-                    break outerloop;
+
                 }
             }
         }
+
         if (sudokuBoardFull){
             // Show a victory message if the Sudoku board is full
             GameStatusAlert gameStatusAlert = new GameStatusAlert();
@@ -148,6 +153,11 @@ public class GameController {
             AlertBox alertBox = new AlertBox();
             alertBox.showMessage("ERROR", "El digito que ingresaste se repite en su columna y/o fila. Ingresa de nuevo un digito");
             numTxt.setText("");
+
         }
+        else{
+            gameStatus(sudoku.getSudokuBoard());
+        }
+
     }
 }
