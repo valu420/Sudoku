@@ -88,8 +88,8 @@ public class GameController {
                 // Check if the entered number is repeated in its row or column
                 isRepeatedNum(sudoku, numTxt, i, j);
 
-                // Check the game status
-                gameStatus(sudoku.getSudokuBoard());
+
+
 
 
 
