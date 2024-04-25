@@ -18,8 +18,8 @@ public class GameController {
 
     @FXML
     public void initialize(){
-        Color cellColor = Color.web("#bcceff");
-        Color defaultcellColor = Color.web("#def7ff");
+        Color cellColor = Color.web("#BF93F3");
+        Color defaultcellColor = Color.web("#D9C1F5");
         for (int i = 0; i < 9; i++){
             for (int j = 0; j < 9; j++){
                 TextField numTxt = new TextField();
